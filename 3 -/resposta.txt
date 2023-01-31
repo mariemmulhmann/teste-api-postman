@@ -1,0 +1,8 @@
+{{dev}} = https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io
+
+URL: {{dev}}/bank/estadoAtuacao/SC
+Métodos: GET - AUTH | GET - PATH | GET - Pesquisa por Estado de Atuacao
+Retorno: possuir texto "SC" no body | status(200)
+JSON de retorno: arquivo - .\Teste-API\teste-api-postman\3 -\retorno.json
+
+

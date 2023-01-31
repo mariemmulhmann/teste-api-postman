@@ -1,0 +1,21 @@
+{
+	"id": "e86e22d1-7f1c-459e-8988-587492213324",
+	"values": [
+		{
+			"key": "dev",
+			"value": "https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "",
+			"value": "",
+			"type": "default",
+			"enabled": false
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-01-31T23:23:40.497Z",
+	"_postman_exported_using": "Postman/10.8.7"
+}

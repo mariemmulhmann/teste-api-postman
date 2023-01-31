@@ -1,0 +1,16 @@
+Cenário de erro 01:
+Criticidade: Média
+Situação: PENDENTE
+
+URL: https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io/bank
+Descrição: Ao realizar uma requisição DELETE para exclusão de banco existente, erro "name": "mockRequestNotFoundError" foi gerado.
+Script do erro:
+{
+    "error": {
+        "name": "mockRequestNotFoundError",
+        "message": "Double check your method and the request path and try again.",
+        "header": "No matching requests"
+    }
+}
+
+Possível causa: requisição ou parâmetros construidos de forma errada.

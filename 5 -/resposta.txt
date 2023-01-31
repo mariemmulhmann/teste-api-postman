@@ -1,0 +1,8 @@
+{{dev}} = https://8dac9f4e-fcb2-4e8f-857a-e4ed3497a0d8.mock.pstmn.io
+
+URL: {{dev}}/bank
+Métodos: GET - AUTH | GET - PATH | POST - Adicionar banco
+Retorno: possuir texto "SP" no body | status(201) para adição | possuir text "Banco adicionado com sucesso!" no body
+JSON de retorno: arquivo - .\Teste-API\teste-api-postman\5 -\retorno.json
+
+

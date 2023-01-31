@@ -1,0 +1,278 @@
+{
+	"id": "883e899d-1f49-4be4-9df8-5c442b02f09d",
+	"name": "Simulador Ecred",
+	"timestamp": "2023-01-31T19:08:59.631Z",
+	"collection_id": "25600957-b0d1ce45-b1bb-4b44-89df-9f6c8bc14b85",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 40,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9c4f187b-47bc-4cab-8a02-a68f518e805f",
+			"name": "AUTH",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				1106,
+				396,
+				323,
+				403,
+				305
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1a7ad176-48e3-450a-807a-d568659c4ff9",
+			"name": "PATH",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Valida estadoAtuacaco: SC - SP - PR": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Valida estadoAtuacaco: SC - SP - PR": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				306,
+				319,
+				339,
+				329,
+				305
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Valida estadoAtuacaco: SC - SP - PR": true
+				},
+				{
+					"Status code is 200": true,
+					"Valida estadoAtuacaco: SC - SP - PR": true
+				},
+				{
+					"Status code is 200": true,
+					"Valida estadoAtuacaco: SC - SP - PR": true
+				},
+				{
+					"Status code is 200": true,
+					"Valida estadoAtuacaco: SC - SP - PR": true
+				},
+				{
+					"Status code is 200": true,
+					"Valida estadoAtuacaco: SC - SP - PR": true
+				}
+			]
+		},
+		{
+			"id": "970cd666-1b5a-42d2-a14a-41ed3279a6bd",
+			"name": "Adicionar banco",
+			"time": 338,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Valida estadoAtuacaco: SC - SP - PR": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Valida estadoAtuacaco: SC - SP - PR": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				316,
+				342,
+				333,
+				302,
+				338
+			],
+			"allTests": [
+				{
+					"Valida estadoAtuacaco: SC - SP - PR": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SC - SP - PR": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SC - SP - PR": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SC - SP - PR": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SC - SP - PR": true,
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "81e7919e-ffa4-492c-8ca6-d2fb56c684a6",
+			"name": "Pesquisa por Estado de Atuacao",
+			"time": 322,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				336,
+				722,
+				428,
+				309,
+				322
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "73ecc6b9-dbb6-4b4f-9950-3d5f421f2790",
+			"name": "Alterar banco existente",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Valida estadoAtuacaco: SP": true,
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Valida estadoAtuacaco: SP": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Status code is 201": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				310,
+				321,
+				559,
+				319,
+				328
+			],
+			"allTests": [
+				{
+					"Valida estadoAtuacaco: SP": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SP": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SP": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SP": true,
+					"Status code is 201": true
+				},
+				{
+					"Valida estadoAtuacaco: SP": true,
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 9716,
+	"collection": {
+		"requests": [
+			{
+				"id": "9c4f187b-47bc-4cab-8a02-a68f518e805f",
+				"method": "GET"
+			},
+			{
+				"id": "1a7ad176-48e3-450a-807a-d568659c4ff9",
+				"method": "GET"
+			},
+			{
+				"id": "970cd666-1b5a-42d2-a14a-41ed3279a6bd",
+				"method": "POST"
+			},
+			{
+				"id": "81e7919e-ffa4-492c-8ca6-d2fb56c684a6",
+				"method": "GET"
+			},
+			{
+				"id": "73ecc6b9-dbb6-4b4f-9950-3d5f421f2790",
+				"method": "PUT"
+			}
+		]
+	}
+}
