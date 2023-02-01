@@ -39,7 +39,7 @@ jobs:
       - name: Execute collection
         uses: actions/checkout@v2
         with:
-          command: newman run ./SimuladorEcred.json -e ./Environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./results/Report.html
+          command: newman run ./SimuladorEcred.json -e ./Environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./results/Report.html -k
    
       # Runs a set of commands using the runners shell
       - name: Archive production artifacts
