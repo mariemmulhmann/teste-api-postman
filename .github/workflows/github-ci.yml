@@ -36,7 +36,8 @@ jobs:
         run: sudo npm install -g newman-reporter-htmlextra
           
       - name: Executar collection
-        newman run ./SimuladorEcred.postman_collection.json -e ./Environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./results/Report.html
+        run: |
+          newman run ./SimuladorEcred.postman_collection.json -e ./Environment.json --reporters cli, -r htmlextra --reporter-htmlextra-export ./results/Report.html
    
       # Runs a set of commands using the runners shell
       - name: Archive production artifacts
